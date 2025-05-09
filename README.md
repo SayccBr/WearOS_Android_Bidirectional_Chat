@@ -33,17 +33,17 @@ O app é dividido em dois módulos:
    git clone https://github.com/seu-usuario/WearPhoneChatApp.git
 Abra o projeto no Android Studio.
 
--No Android Studio, acesse:
+**No Android Studio, acesse:
 Tools > Firebase
 e conecte os módulos Android e Wear ao seu projeto Firebase.
 
--Altere os arquivos google-services.json:
+**Altere os arquivos google-services.json:
 
--Acesse a console do Firebase.
+**Acesse a console do Firebase.
 
--Selecione seu projeto e baixe o google-services.json correspondente a cada módulo.
+**Selecione seu projeto e baixe o google-services.json correspondente a cada módulo.
 
--Envie e receba mensagens entre os dispositivos para testar a comunicação bidirecional.
+**Envie e receba mensagens entre os dispositivos para testar a comunicação bidirecional.
 
 ⚠️ Observações Importantes
 🔐 O arquivo google-services.json contém credenciais sensíveis e está vinculado à sua conta do Firebase.
@@ -51,9 +51,9 @@ e conecte os módulos Android e Wear ao seu projeto Firebase.
 🌐 Certifique-se de que ambos os dispositivos estejam com conexão com a internet, pois o Firestore depende de conexão ativa com a nuvem.
 
 📸 Demonstrações
-⌚ Smartwatch – Interface com Jetpack Compose
-![Cel](https://github.com/user-attachments/assets/46b5ef31-2e6e-4690-a550-c74648d06577)
+### 📸 **Smartwatch – Interface com Jetpack Compose
+   ![Cel](https://github.com/user-attachments/assets/46b5ef31-2e6e-4690-a550-c74648d06577)
 
-📱 Smartphone – Interface com mensagens
-![Smart](https://github.com/user-attachments/assets/c01555e0-1843-425d-82e9-9a5381b2d88f)
+### 📱 **Smartphone – Interface com mensagens
+   ![Smart](https://github.com/user-attachments/assets/c01555e0-1843-425d-82e9-9a5381b2d88f)
 
