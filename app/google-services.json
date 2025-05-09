@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1019109075788",
+    "project_id": "wearphonechat",
+    "storage_bucket": "wearphonechat.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1019109075788:android:5cad5ed930b602cf933de9",
+        "android_client_info": {
+          "package_name": "com.example.wearphonebidirecionalchat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmil5tBiqYbFf1ouaOiMoIB_MP4Tr9N1c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
