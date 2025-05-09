@@ -35,15 +35,15 @@ Abra o projeto no Android Studio.
 
 **No Android Studio, acesse:
 Tools > Firebase
-e conecte os módulos Android e Wear ao seu projeto Firebase.
+e conecte os módulos Android e Wear ao seu projeto Firebase.**
 
-**Altere os arquivos google-services.json:
+**Altere os arquivos google-services.json**
 
-**Acesse a console do Firebase.
+**Acesse a console do Firebase.**
 
-**Selecione seu projeto e baixe o google-services.json correspondente a cada módulo.
+**Selecione seu projeto e baixe o google-services.json correspondente a cada módulo.**
 
-**Envie e receba mensagens entre os dispositivos para testar a comunicação bidirecional.
+**Envie e receba mensagens entre os dispositivos para testar a comunicação bidirecional.**
 
 ⚠️ Observações Importantes
 🔐 O arquivo google-services.json contém credenciais sensíveis e está vinculado à sua conta do Firebase.
