@@ -44,10 +44,12 @@ fun ChatWearOS() {
     LaunchedEffect(Unit) {
         db.collection("mensagens").addSnapshotListener { snapshot, _ ->
             if (snapshot != null) {
-                mensagens = snapshot.toObjects(Mensagem::class.java)
+                val lista = snapshot.toObjects(Mensagem::class.java)
+                mensagens = lista.sortedBy { it.timestamp }
             }
         }
     }
+
 
     // Layout da tela
     Column(

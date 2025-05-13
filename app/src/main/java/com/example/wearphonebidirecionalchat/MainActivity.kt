@@ -54,6 +54,7 @@ class MainActivity : AppCompatActivity() {
 
                 // Converte os documentos em objetos Mensagem
                 val mensagens = snapshot.toObjects(Mensagem::class.java)
+                    .sortedBy { it.timestamp } // ordena por timestamp
 
                 // Mostra as mensagens no TextView
                 textViewMessages.text = mensagens.joinToString("\n") {
